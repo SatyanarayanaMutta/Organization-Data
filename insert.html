@@ -1,0 +1,31 @@
+<html>
+<body bgcolor="#78f21">
+	<script type="text/javascript">on</script>
+	<style type="text/css">
+		input[type=text]{height: 30px;font-size: 18px;}
+		input[type=number]{height: 30px;font-size: 18px;}
+	</style>
+	<center><h1 style="font-size:40pt; background-color: DodgerBlue; color:Green"><b>Registration of Employees<h1><b/></center>
+	<center>
+	<form action="cgi-bin/insert.py" method="POST">
+		
+			<input type="text" name="rno" placeholder="Enter Employee ID"  title='Enter Name' required="required"><br/>
+			<input type="text" name="name" placeholder="Enter Name" required><br/>
+			<input type="number" name="mobile" placeholder="Enter Mobile Number" required="required"><br/><br/>
+			<input type="submit" value="SAVE">
+			
+		
+	</form>
+	
+	<input type="submit" value="UPDATE DATA" onclick="location.href='edit.html'">
+	<input type="submit" value="SHOW" onclick="location.href='/cgi-bin/read.py'">
+	<input type="submit" value="Remove" onclick="location.href='delete.html'">
+
+	</center>
+	<br/><center><input type="submit" value="HOME" onclick="location.href='index.html'"></center>
+	
+	
+		
+	
+</body>
+</html>
